@@ -12,6 +12,7 @@ package org.pablo.mylib;
 public class LibClass {
 
     public static String acrostic(String[] args) {
+        System.out.println("Primer cambio de Javier");
         StringBuilder b = new StringBuilder();
         for (int i = 0; i < args.length; i++) {
             if (args[i].length() > i) {
